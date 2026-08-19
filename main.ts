@@ -1,3 +1,6 @@
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, location) {
+    game.gameOver(false)
+})
 function make_hero () {
     hero = sprites.create(img`
         . . . . . . . . . . . . . . . . 
@@ -94,6 +97,12 @@ function make_hero () {
     controller.moveSprite(hero)
     scene.cameraFollowSprite(hero)
 }
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile`, function (sprite, location) {
+    game.gameOver(false)
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile13`, function (sprite, location) {
+    game.gameOver(true)
+})
 let hero: Sprite = null
 scene.setBackgroundImage(img`
     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
