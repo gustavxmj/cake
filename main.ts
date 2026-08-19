@@ -92,6 +92,7 @@ function make_hero () {
     true
     )
     controller.moveSprite(hero)
+    scene.cameraFollowSprite(hero)
 }
 let hero: Sprite = null
 scene.setBackgroundImage(img`
