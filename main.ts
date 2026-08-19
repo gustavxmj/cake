@@ -88,7 +88,7 @@ function make_hero () {
         . . . . f f f f f f f f f f . . 
         . . . . . f f . . . f f f . . . 
         `],
-    500,
+    200,
     true
     )
 }

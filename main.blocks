@@ -204,4 +204,4 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 . . . . f e e f 4 4 5 5 f f . . 
 . . . . f f f f f f f f f f . . 
 . . . . . f f . . . f f f . . . 
-`]</field><data>{"commentRefs":[],"fieldData":{"frames":null}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="qDMOJL=7tLri5zgM[Max"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="~5-PHYlmOqS8p5-?JN!?"><field name="on">true</field></shadow></value></block></next></block></statement></block></xml>
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":null}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="qDMOJL=7tLri5zgM[Max"><field name="ms">200</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="~5-PHYlmOqS8p5-?JN!?"><field name="on">true</field></shadow></value></block></next></block></statement></block></xml>
