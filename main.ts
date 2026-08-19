@@ -96,6 +96,7 @@ function make_hero () {
     )
     controller.moveSprite(hero)
     scene.cameraFollowSprite(hero)
+    tiles.placeOnRandomTile(hero, assets.tile`myTile15`)
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile`, function (sprite, location) {
     game.gameOver(false)
