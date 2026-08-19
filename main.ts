@@ -97,6 +97,7 @@ function make_hero () {
     controller.moveSprite(hero, 100, 0)
     scene.cameraFollowSprite(hero)
     tiles.placeOnRandomTile(hero, assets.tile`myTile15`)
+    hero.ay = 200
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile`, function (sprite, location) {
     game.gameOver(false)
@@ -105,7 +106,9 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile13`, function (sprite, 
     game.gameOver(true)
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    hero.vy = -120
+    if (0 == hero.vy) {
+        hero.vy = -130
+    }
 })
 let hero: Sprite = null
 scene.setBackgroundImage(img`
